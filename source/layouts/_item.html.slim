@@ -1,0 +1,15 @@
+.item
+  a.item-title href="/items/#{item.no}.html"= item.name
+  ul.unstyled.item-achievements
+    - item.achievements.each do |achievement|
+      li.item-achievement
+        = achievement.type
+        |  
+        small= achievement.compulsory ? "pflicht" : "freiwillig" 
+  small 
+    a.item-sign href="javascript:;" title="ECTS" data-toggle="tooltip"
+      i.icon.icon-certificate
+      = item.ects
+    a.item-sign href="javascript:;" title="Semesterwochenstunden" data-toggle="tooltip"
+      i.icon.icon-time
+      = item.sws

@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body {
+  background: #DDDDD1;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 12pt;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: .8em;
+  margin-top: 1em;
+  font-size: 1.7em;
+  color: #F14E32;
+}
+
+a:hover {color: #08C;}
+
+hr.clear {
+  clear: both;
+  border: 0;
+}
+
+.content {
+  margin: 1em auto;
+  width: 900px;
+  width: 900px;
+  padding: 20px 30px 20px 20px;
+  border-radius: 4px;
+  background: #FFF;
+}
+
+.modul-group {
+  margin-bottom: 3em;
+}
+
+.item {
+  padding: 10px;
+  background: #eee;
+  margin: 0 10px 10px 0;
+  /*display: inline-block;*/
+  float: left;
+}
+
+.item-sign {
+  margin-right: 7px;
+  color: #777;
+  &:hover { 
+    text-decoration: none; 
+    color: #005580;
+  }
+  .icon { margin-right: 2px; }
+}
+
+.item-title {
+  margin-bottom: .5em;
+  display: block;
+}
+
+.item-achievements {
+  font-size: .9em;
+}
+
+.item-achievement small {
+  color: #999;
+}
+
