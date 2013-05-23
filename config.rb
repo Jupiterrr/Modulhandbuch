@@ -4,12 +4,13 @@ require "awesome_print"
 
 require "lib/data/mod_inf_ba"
 
-page "/index.html", :proxy => "index_tmpl.html" do
+page "/index.html", :proxy => "/index_tmpl.html" do
   @mod = MOD_INF_BA
 end
+ignore "/index_tmpl.html"
 
 MOD_INF_BA.items.each do |item|
-  proxy "/items/#{item.no}.html", "/item.html", :locals => { :item => item }
+  proxy "/items/#{item.no}.html", "/item.html", :locals => { :item => item }, :ignore => true
 end
 
 ###
@@ -88,4 +89,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+  set :http_prefix, "/Modulhandbuch"
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
 end
