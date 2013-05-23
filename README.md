@@ -18,3 +18,12 @@ middleman server
 
 ## Status
 Ich versuche zunächst anhand des [Informatik BA Modulhandbuchs](http://www.informatik.kit.edu/downloads/studium/mhb_info_ba_SS13.pdf) einen Prototypen zu erstellen.
+
+---
+
+### Notizen
+#### Deployment
+```
+middleman build [--clean]
+middleman deploy [--clean]
+```
