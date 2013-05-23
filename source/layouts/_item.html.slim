@@ -1,5 +1,5 @@
 .item
-  a.item-title href="/items/#{item.no}.html"= item.name
+  == link_to item.name, "items/#{item.no}.html", class: "item-title"
   ul.unstyled.item-achievements
     - item.achievements.each do |achievement|
       li.item-achievement

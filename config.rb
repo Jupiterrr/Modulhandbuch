@@ -88,7 +88,7 @@ configure :build do
   # activate :smusher
 
   # Or use a different image path
-  # set :http_path, "/Content/images/"
+  set :http_path, "/Modulhandbuch"
   set :http_prefix, "/Modulhandbuch"
 end
 

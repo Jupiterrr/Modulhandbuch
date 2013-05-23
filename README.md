@@ -3,6 +3,9 @@ Das Projekt versucht Modulhandbücher des [Karlsruher Institut für Technologie 
 
 In diesem Repository wird zunächst direkt eine Webseite mitentwickelt, welche das Modulhandbuch anzeigen kann.
 
+Aktuelle Version der Website:
+[http://jupiterrr.github.io/Modulhandbuch](http://jupiterrr.github.io/Modulhandbuch)
+
 ## Requirements
 * ruby
 * bundler
