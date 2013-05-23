@@ -1,0 +1,72 @@
+/* line 3, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+body {
+  background: #DDDDD1;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 12pt; }
+
+/* line 9, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+h1 {
+  padding: 0;
+  margin: 0; }
+
+/* line 14, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+h2 {
+  margin-bottom: .8em;
+  margin-top: 1em;
+  font-size: 1.7em;
+  color: #F14E32; }
+
+/* line 21, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+a:hover {
+  color: #08C; }
+
+/* line 23, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+hr.clear {
+  clear: both;
+  border: 0; }
+
+/* line 28, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.content {
+  margin: 1em auto;
+  width: 900px;
+  width: 900px;
+  padding: 20px 30px 20px 20px;
+  border-radius: 4px;
+  background: #FFF; }
+
+/* line 37, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.modul-group {
+  margin-bottom: 3em; }
+
+/* line 41, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.item {
+  padding: 10px;
+  background: #eee;
+  margin: 0 10px 10px 0;
+  /*display: inline-block;*/
+  float: left; }
+
+/* line 49, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.item-sign {
+  margin-right: 7px;
+  color: #777; }
+  /* line 52, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+  .item-sign:hover {
+    text-decoration: none;
+    color: #005580; }
+  /* line 56, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+  .item-sign .icon {
+    margin-right: 2px; }
+
+/* line 59, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.item-title {
+  margin-bottom: .5em;
+  display: block; }
+
+/* line 64, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.item-achievements {
+  font-size: .9em; }
+
+/* line 68, /Users/Jupiter/Projekte/ModHB/source/stylesheets/all.css.scss */
+.item-achievement small {
+  color: #999; }
