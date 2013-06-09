@@ -13,6 +13,10 @@ MOD_INF_BA.items.each do |item|
   proxy "/items/#{item.no}.html", "/item.html", :locals => { :item => item }, :ignore => true
 end
 
+page "/planer.html" do
+  @mod = MOD_INF_BA
+end
+
 ###
 # Compass
 ###

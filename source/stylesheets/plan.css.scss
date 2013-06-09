@@ -1,0 +1,35 @@
+.pull-left {
+  float: left;
+}
+
+.terms-area {
+  padding-top: 27.20px;
+  width: 200px;
+  vertical-align: text-bottom;
+  //min-height: 500px;
+  //margin: 0 20px 20px 0;
+  padding-right: 20px;
+}
+
+.term {
+  padding: 10px;
+  background: #eee;
+  margin-bottom: 5px;
+}
+
+.over {
+  background: red;
+}
+
+.item {
+  position: relative;
+}
+
+.item-drag-handle {
+  cursor: move;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #fff;
+  font-size: 1.5em;
+}

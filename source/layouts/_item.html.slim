@@ -1,4 +1,4 @@
-.item
+.item draggable="true" id=item.name
   == link_to item.name, "items/#{item.no}.html", class: "item-title"
   ul.unstyled.item-achievements
     - item.achievements.each do |achievement|
@@ -13,3 +13,5 @@
     a.item-sign href="javascript:;" title="Semesterwochenstunden" data-toggle="tooltip"
       i.icon.icon-time
       = item.sws
+
+  i.icon-reorder.item-drag-handle

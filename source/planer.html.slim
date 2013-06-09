@@ -1,0 +1,33 @@
+---
+title: Modulhandbuch
+---
+
+h1 Modulhandbuch
+
+/ h2 Pflichtmodule
+/ - @mod.compulsory.each do |item|
+/   == partial "layouts/item", locals: {item: item} 
+
+/ br
+/ br
+
+table
+  tr
+    td.terms-area
+      - 5.times do |i|
+        .term
+          .term-no = i+1
+          .items
+    td
+      - @mod.groups.each do |key, items|
+        section.modul-group
+          h2 = key
+          - items.each do |item|
+            == partial "layouts/item", locals: {item: item} 
+          hr.clear
+
+br
+br
+a href="http://www.informatik.kit.edu/downloads/studium/mhb_info_ba_SS13.pdf" Offizielles Modulhanbuch
+|  
+small (Inf.Ba. SS2013)
