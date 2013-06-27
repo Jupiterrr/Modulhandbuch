@@ -27,3 +27,9 @@ Ich versuche zunächst anhand des [Informatik BA Modulhandbuchs](http://www.info
 middleman build [--clean]
 middleman deploy [--clean]
 ```
+
+* gesamte Studium/Zukunft planen
+	* ECTS gesamt
+	* ECTS Semester
+	* es muss bekannt sein welche leistungen schon erbracht wurden
+	

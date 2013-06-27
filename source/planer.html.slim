@@ -1,8 +1,8 @@
 ---
-title: Modulhandbuch
+title: Studienplan
 ---
 
-h1 Modulhandbuch
+h1 Studienplan
 
 / h2 Pflichtmodule
 / - @mod.compulsory.each do |item|
@@ -11,7 +11,7 @@ h1 Modulhandbuch
 / br
 / br
 
-table
+/table
   tr
     td.terms-area
       - 5.times do |i|
@@ -25,6 +25,89 @@ table
           - items.each do |item|
             == partial "layouts/item", locals: {item: item} 
           hr.clear
+
+.term-plan
+  .term-row
+    .term-no 1
+    .term-body 
+      .event-item Grundbegriffe der Informatik 
+      .event-item Programmieren
+      .event-item Höhere Mathematik I 
+      .event-item Lineare Algebra I
+        
+    .term-event-add-btn
+      a href="javascript:;" 
+          i.icon-plus
+      .term-lp 20 LP
+  
+  .term-row
+    .term-no 2
+    .term-body 
+      .event-item Algorithmen I
+      .event-item Softwaretechnik I
+      .event-item Höhere Mathematik II
+      .event-item Lineare Algebra II
+      .event-item Rechnerorganisation
+        
+    .term-event-add-btn
+      a href="javascript:;" 
+          i.icon-plus
+
+
+  .term-row
+    .term-no 3
+    .term-body 
+      .event-item Theoretische Grundlagen der Informatik
+      .event-item Praxis der Softwareentwicklung
+      .event-item Betriebssysteme
+      .event-item Wahrscheinlichkeitstheorie & Statistik
+      .event-item Digitaltechnik & Entwurfsverfahren
+        
+    .term-event-add-btn
+      a href="javascript:;" 
+          i.icon-plus
+
+
+  .term-row
+    .term-no 4
+    .term-body 
+      .event-item Kommunikation & Datenhaltung
+      .event-item Numerik
+        
+    .term-event-add-btn
+      a href="javascript:;" 
+          i.icon-plus
+
+
+  .term-row
+    .term-no 5
+    .term-body 
+      .event-item Algorithmen II
+      .event-item Programmierparadigmen
+        
+    .term-event-add-btn
+      a href="javascript:;" 
+          i.icon-plus
+
+
+  .term-row
+    .term-no 6
+    .term-body 
+      .event-item Bachelorarbeit
+        
+    .term-event-add-btn
+      a href="javascript:;" 
+          i.icon-plus
+
+
+
+  hr
+  hr
+  .term-row
+    .term-head
+      .pull-right
+        b 20/180 LP
+
 
 br
 br
